@@ -1,0 +1,128 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "template fifty seven",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "TheNameIsIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{user_name}",
+            "name is {user_name}",
+            "Her name is {user_name}",
+            "His name is {user_name}",
+            "The name is {user_name}"
+          ]
+        },
+        {
+          "name": "TellFavouriteColorIntent",
+          "slots": [
+            {
+              "name": "color_name",
+              "type": "AMAZON.Color"
+            }
+          ],
+          "samples": [
+            "the color is {color_name}",
+            "color is {color_name}",
+            "it {color_name}",
+            "it is {color_name}",
+            "her favourite color is {color_name} ",
+            "his favourite color is {color_name}",
+            "favourite color is {color_name}",
+            "my favourite color is {color_name}"
+          ]
+        },
+        {
+          "name": "AddNewRecordIntent",
+          "slots": [],
+          "samples": [
+            "add new record to the d. b.",
+            "add new record",
+            "add a new entry to the database",
+            "add a new record to the database",
+            "add a new record"
+          ]
+        },
+        {
+          "name": "ChangeColorIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            },
+            {
+              "name": "color_name",
+              "type": "AMAZON.Color"
+            }
+          ],
+          "samples": [
+            "change {user_name} color to {color_name}",
+            "update {user_name} favourite color to {color_name}",
+            "change {user_name} favorite color to {color_name}"
+          ]
+        },
+        {
+          "name": "GetFavoriteColorIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "give me {user_name} favourite color",
+            "tell me {user_name} favourite color",
+            "what is {user_name} favourite color"
+          ]
+        },
+        {
+          "name": "DeleteRecordIntent",
+          "slots": [
+            {
+              "name": "user_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "delete the records of {user_name}",
+            "delete {user_name} records",
+            "delete {user_name} record"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "1"
+}
