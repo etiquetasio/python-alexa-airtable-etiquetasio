@@ -2,12 +2,14 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "Sample Short Description",
+        "pt-BR": {
+          "summary": "Gerencia etiquetas",
           "examplePhrases": [
-            "Alexa open template fifty six",
-            "Alexa start template fifty six",
-            "Alexa launch template fifty six"
+            "Alexa abrir template Gerencias etiquetas",
+            "Alexa iniciar template Gerenciar etiquetas",
+            "Alexa abrir template Gerencia etiquetas",
+            "Alexa iniciar template Gerencia etiquetas",
+            "Alexa começar template Gerenciar etiquetas"
           ],
           "keywords": [],
           "name": "Template Fifty Seven - Airtable Example",
